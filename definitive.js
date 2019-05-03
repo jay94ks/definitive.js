@@ -85,7 +85,7 @@ SOFTWARE.
 						current[identifier] = object;
 					
 					while (this._cbs.length > 0) {
-						var fn = this._cbs.splice(0, 1); fn();
+						var fn = this._cbs.splice(0, 1)[0]; fn();
 					}
 					return this;
 				}
