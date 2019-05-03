@@ -66,3 +66,10 @@ define( 'sample.object', { counter: 0 } )
 VM112:9 Duplicated execution... 3
 {_0: false, _1: "kept", _2: Array(0), _4: null, _5: {…}, …}
 ```
+
+## definitives.block( )
+blocks executions of functors which registered by ``define`` function.
+
+## definitives.unblock( )
+unblocks executions of functors and invoke them immediately.
+
