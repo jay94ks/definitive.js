@@ -1,7 +1,8 @@
 # definitive.js
-Definitive.js - Simple Script helper for AJAX paging loaders.
+Definitive.js - Simple Script helper for AJAX page loaders.
 
 ![Overview](https://github.com/jay94ks/definitive.js/blob/master/definitive.png?raw=true)
+(Smoother.js is work in progress for AJAX page loading)
 
 # APIs
 ## define( NAME, DEFAULT-OBJECT [, FLAGS] )
