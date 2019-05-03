@@ -45,7 +45,7 @@ SOFTWARE.
 					a = (a + '').toLowerCase();
 					if (a == 'any' || this._state == a) {
 						if (this._blocked) 
-							_cbs.push(function() { b(a, definitions[fullName]); });
+							this._cbs.push(function() { b(a, definitions[fullName]); });
 						
 						else b(a, this);
 					}
